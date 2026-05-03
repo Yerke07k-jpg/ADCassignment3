@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        // --- Тест Hash Table ---
+       
         MyHashTable<MyTestingClass, String> table = new MyHashTable<>(100);
         Random rand = new Random();
         for (int i = 0; i < 10000; i++) {
@@ -11,7 +11,7 @@ public class Main {
         }
         table.printBucketSizes();
 
-        // --- Тест BST ---
+        
         BST<Integer, String> tree = new BST<>();
         tree.put(10, "Ten");
         tree.put(5, "Five");
